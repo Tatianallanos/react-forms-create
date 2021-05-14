@@ -1,0 +1,14 @@
+.tabla-formulario-cont {
+    width: 23%;
+    min-height: 200px;
+    border: 1px solid green;
+    margin: 0 auto;
+    position:initial;
+    margin-inline: 500px;
+    margin-bottom: 50px;
+    background-color:darkgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+}

@@ -1,0 +1,18 @@
+.sección-cont{
+    border: 2px solid cadetblue;
+    text-align: left;
+    margin-bottom: 5px;
+    width: 91%;
+    margin: 0 auto;
+    min-height: 20px;
+    margin-bottom: 5px;
+}
+
+.sección-without-cantidad{
+    color: red;
+}
+
+.sección-without-monto{
+    font-weight: bold;
+}
+
