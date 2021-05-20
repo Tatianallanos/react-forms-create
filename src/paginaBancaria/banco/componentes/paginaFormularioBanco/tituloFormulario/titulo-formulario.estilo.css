@@ -1,5 +1,5 @@
 .titulo-formulario-cont{
-    width: 85%;
+    width: 50%;
     margin: 0 auto;
     min-height: 30px;
     border: 1px solid black;
@@ -9,7 +9,14 @@
     min-height: 20px;
     margin-bottom: 5px;
     font-weight: bold;
-
+    
+    
 
 }
 
+.alinear-tablas{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    
+}

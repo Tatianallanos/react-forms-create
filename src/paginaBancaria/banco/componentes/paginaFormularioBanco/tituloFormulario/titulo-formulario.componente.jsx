@@ -3,9 +3,11 @@ import './titulo-formulario.estilo.css';
 
 const TituloFormulario = () => {
     return (
-        <div className="titulo-formulario-cont">
+        <div >
             <div>
-                 FORMULARIO MODALIDADES
+                <h4>
+                    FORMULARIO MODALIDADES
+                </h4>
             </div>  
         </div>   
     );

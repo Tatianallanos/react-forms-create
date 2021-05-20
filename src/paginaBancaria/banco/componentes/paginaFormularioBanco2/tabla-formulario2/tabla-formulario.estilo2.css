@@ -1,0 +1,27 @@
+.tabla-formulario-cont2 {
+    width: 90%;
+    min-height:200px;
+    border: 1px solid green;
+    margin: 0 auto;
+    margin-inline: 50px;
+    margin-bottom: 50px;
+    background-color:darkgray;
+    border-radius: 10px;
+
+}
+.segunda-tabla-formulario-cont2{
+    width: 40%;
+    margin-top: 10%;
+    
+}
+
+.centrar{
+    border-radius: 10px;
+    border-radius: 100%;
+    width: 200%;
+    margin-top: 10%;
+    margin: 10%;
+    margin-inline: 50%;
+    background-color: darkcyan;
+
+}

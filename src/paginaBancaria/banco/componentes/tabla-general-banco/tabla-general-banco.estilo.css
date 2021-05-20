@@ -1,6 +1,18 @@
 .tabla-general-banco-cont {
-    width: 23%;
+    width: 30%;
     margin-right:initial;
     min-height: 450px;
-    border: 1px solid violet;
+    border: 1px solid rgb(250, 75, 250);
+    margin-left: 5%;
+    margin-bottom: 50px;
+    background-color:lightgrey;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+.alinear-tablas{
+    display:flex;
+    background-color:cadetblue;
+    flex-wrap:nowrap;
+    
+    
 }

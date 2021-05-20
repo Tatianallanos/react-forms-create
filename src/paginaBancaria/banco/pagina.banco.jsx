@@ -1,5 +1,6 @@
 import React from 'react';
 import TablaFormulario from './componentes/paginaFormularioBanco/tabla-formulario/tabla-formulario.componente';
+import TablaFormulario2 from './componentes/paginaFormularioBanco2/tabla-formulario2/tabla-formulario.componente2';
 import TablaGeneralBanco from './componentes/tabla-general-banco/tabla-general-banco.componente';
 
 
@@ -82,10 +83,20 @@ const PaginaBanco = () => {
 
     return (
         <> 
-            <TablaGeneralBanco 
-                listaSección={listaSección} 
-            />
-            <TablaFormulario/>
+            <div className='alinear-tablas'>
+
+                <div className='tabla-general-banco-cont'> 
+                    <TablaGeneralBanco 
+                        listaSección={listaSección} 
+                    />
+                </div>
+                <div className='segunda-tabla-formulario-cont2'>
+                    <TablaFormulario2/>
+                </div>
+                <div className='principal-tabla-formulario-cont'>
+                    <TablaFormulario/>
+                </div>
+            </div>
 
         </>
     );

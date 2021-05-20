@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TituloFormulario from '../tituloFormulario/titulo-formulario.componente';
 import './tabla-formulario.estilo.css';
+import descarga from '../descarga.jpg';
 
 
 const TablaFormulario = () => {
@@ -20,7 +21,9 @@ const TablaFormulario = () => {
 
     return (
         <div className ="tabla-formulario-cont">
-
+            <div>
+                 <img className="Banco" src={descarga}/>                    
+            </div>  
             <div>
                 <TituloFormulario/>
             </div> 
@@ -88,13 +91,18 @@ const TablaFormulario = () => {
 
                     <tr>
                         <td>
-                            <button
-                                onClick={guardarInformacion}
-                            >
-                                 Guardar Informacion
-                            </button>
+                            <div className='centrar'>
+                                <button
+                                    onClick={guardarInformacion}                                >
+                                    <h4>
+                                        Guardar Informacion
+                                    </h4>
+                                </button>
+                            </div>
+                            
                         </td>
                     </tr>
+ 
                         </tbody>
 
 
